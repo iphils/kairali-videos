@@ -1,7 +1,7 @@
 import {Composition} from 'remotion';
 import {KairaliAd} from './KairaliAd';
 
-export const RemotionRoot: React.FC = () => {
+export const Root: React.FC = () => {
 	return (
 		<>
 			<Composition
@@ -11,6 +11,7 @@ export const RemotionRoot: React.FC = () => {
 				fps={30}
 				width={1080}
 				height={1080}
+				defaultProps={{}}
 			/>
 		</>
 	);

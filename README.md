@@ -181,3 +181,21 @@ The development server provides instant feedback, making it easy to iterate and 
 - **Duration**: 10 seconds (300 frames at 30fps)
 - **Framework**: Remotion + React + TypeScript
 - **Effects**: Mathematical shaders, SVG animations, spring physics
+
+## ✅ **CLAUDE.md Compliance**
+
+This project has been updated to follow all Remotion best practices outlined in CLAUDE.md:
+
+### **Changes Made:**
+- **Root Component**: Function renamed from `RemotionRoot` to `Root` as per Remotion standards
+- **Composition Props**: Added required `defaultProps={{}}` to `<Composition>` component
+- **Deterministic Rendering**: Replaced FluidShader's DOM canvas creation with frame-based CSS gradients
+- **No Math.random()**: All animations use Remotion's `interpolate()` and `spring()` functions
+- **Frame-based Animations**: All effects are deterministic and render consistently
+
+### **Deterministic Features:**
+- ✅ All animations driven by `useCurrentFrame()` hook
+- ✅ Uses Remotion's `interpolate()` with proper extrapolation
+- ✅ Springs use proper damping and stiffness configuration  
+- ✅ No DOM manipulation during render
+- ✅ Consistent output for video rendering

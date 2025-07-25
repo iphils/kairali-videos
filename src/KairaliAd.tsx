@@ -191,7 +191,7 @@ export const KairaliAd: React.FC = () => {
 							fontFamily: '"Lato", sans-serif',
 						}}
 					>
-						Luxury Coconut Collection
+						Premium Virgin Coconut Oil
 					</div>
 				</div>
 
@@ -214,7 +214,7 @@ export const KairaliAd: React.FC = () => {
 							letterSpacing: '1px',
 						}}
 					>
-						Pure Virgin • Artisan Crafted
+						Women Owned • Artisan Crafted
 					</h2>
 					<p
 						style={{
@@ -342,7 +342,7 @@ export const KairaliAd: React.FC = () => {
 							fontStyle: 'italic',
 						}}
 					>
-						Sustainably Sourced • Cold Pressed • Chemical Free
+						Sustainably Sourced • Chemical Free
 					</div>
 					<div
 						style={{
@@ -444,7 +444,7 @@ export const KairaliAd: React.FC = () => {
 							backdropFilter: 'blur(10px)',
 						}}
 					>
-						Experience Pure Luxury in Every Drop
+						100% Pure Coconut Milk Oil
 					</div>
 					<div
 						style={{
@@ -456,7 +456,7 @@ export const KairaliAd: React.FC = () => {
 							textTransform: 'uppercase',
 						}}
 					>
-						VKP Industries • Crafting Excellence Since Generations
+						VKP Industries  
 					</div>
 				</div>
 			</AbsoluteFill>

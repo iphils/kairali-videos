@@ -11,7 +11,6 @@ build/
 
 # Rendered videos (keep only final versions)
 *.mp4
-!kairali-v*.mp4
 
 # OS generated files
 .DS_Store
